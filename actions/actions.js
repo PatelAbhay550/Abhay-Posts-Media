@@ -14,6 +14,7 @@ const CreatePosts = async (formData) => {
   // Add the document to the Firestore collection with a timestamp
   const docRef = await addDoc(collection(db, "Posts"), {
     author: user.given_name,
+    email: user.email,
     title: title,
     body: body,
     upVotes: 0,
