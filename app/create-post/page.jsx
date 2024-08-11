@@ -11,7 +11,7 @@ const CreatePost = async () => {
   const { isAuthenticated } = getKindeServerSession();
 
   if (!(await isAuthenticated())) {
-    redirect("/api/auth/login?post_login_redirect_url=/create-post");
+    redirect("https://abhay-posts-media.vercel.app/api/auth/login?post_login_redirect_url=/create-post");
     return null;
   }
   return (
