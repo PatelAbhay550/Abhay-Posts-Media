@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Abhay Posts Media | Share Your with the World",
+  title: "Abhay Posts Media | Share Your Thoughts with the World",
   description: "Share Your Thoughts and Media with the World and get feedback",
 };
 
